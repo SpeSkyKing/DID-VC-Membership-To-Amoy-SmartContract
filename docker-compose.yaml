@@ -1,0 +1,10 @@
+services:
+  hardhat:
+    build: ./app
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true

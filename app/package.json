@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:amoy": "hardhat ignition deploy ./ignition/modules/MembershipVC.ts --network amoy",
+    "deploy:sepolia": "hardhat ignition deploy ./ignition/modules/MembershipVC.ts --network sepolia",
+    "deploy:local": "hardhat ignition deploy ./ignition/modules/MembershipVC.ts --network localhost",
+    "verify": "hardhat verify --network mumbai",
+    "test": "hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "did-jwt-vc": "^4.0.15",
+    "did-resolver": "^4.1.0",
+    "ethr-did": "^3.0.38"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.26.1"
+  }
+}

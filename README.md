@@ -1,5 +1,5 @@
 ## 概要
-DID（Decentralized Identity）とVC（Verifiable Credentials）技術を活用した、画像ハッシュベースの会員証管理システムです。Polygon Amoyテストネット上にデプロイされたスマートコントラクトにより、改ざん検出機能付きの会員証発行・認証・失効を実現します。
+ブロックチェーン技術を活用した、画像ハッシュベースの会員証管理システムです。Polygon Amoyテストネット上にデプロイされたスマートコントラクトにより、改ざん検出機能付きの会員証発行・認証・失効を実現します。
 
 ## 特徴
 
@@ -52,7 +52,7 @@ app/
 ```bash
 # リポジトリクローン
 git clone <repository-url>
-cd DID-VC-Membership-To-Amoy-SmartContract
+cd Blockchain-Membership-SmartContract
 
 # Docker環境起動
 docker-compose up -d
